@@ -10,13 +10,43 @@
 
   <style>
     body {
-      margin: 0;
       font-family: 'Libre Baskerville', serif;
-      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
     }
-    a {
-      color: inherit;
-      text-decoration: none;
+    header {
+      background-color: #B9C8B1;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    .gallery {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      object-fit: cover;
+    }
+    footer {
+      text-align: center;
+      background-color: #B9C8B1;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
     }
   </style>
 </head>
